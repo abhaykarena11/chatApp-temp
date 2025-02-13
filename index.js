@@ -13,7 +13,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
+    origin: "https://chit-chat-app-lyart.vercel.ap", // Replace with your frontend URL
     credentials: true, // Allow cookies to be sent
 }));
 
