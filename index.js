@@ -15,6 +15,7 @@ app.use(cookieParser());
 app.use(cors({
     origin: "https://chit-chat-app-lyart.vercel.app", // Replace with your frontend URL
     credentials: true, // Allow cookies to be sent
+    methods:["GET","POST"]
 }));
 
 
